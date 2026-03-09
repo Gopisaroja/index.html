@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOPISAROJA G - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #ffffff 100%);
+            color: #000000;
+            padding: 40px;
+            line-height: 1.5;
+            max-width: 850px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .name { font-size: 2.5em; font-weight: 700; margin-bottom: 5px; color: #1e40af; }
+        .location { font-size: 1.2em; color: #374151; margin-bottom: 20px; }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .link { 
+            font-size: 1em; 
+            color: #1e40af; 
+            text-decoration: none; 
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.3s;
+        }
+        .link:hover { color: #3b82f6; }
+        .icon { font-size: 1.2em; }
+        .section {
+            margin-bottom: 25px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .content { font-size: 0.95em; }
+        .education-item, .project-item { margin-bottom: 12px; }
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .skills-list li { list-style: none; padding: 4px 0; }
+        .profiles { display: flex; gap: 15px; flex-wrap: wrap; }
+        .profile-link { 
+            color: #1e40af; 
+            text-decoration: none; 
+            font-weight: 500;
+        }
+        .profile-link:hover { text-decoration: underline; }
+        @media print {
+            body { padding: 20px; background: white !important; }
+            .section { box-shadow: none; background: white; }
+        }
+        @page { margin: 0.5in; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">GOPISAROJA G</div>
+        <div class="location">Virudhunagar, Tamil Nadu</div>
+        <div class="links">
+            <a href="https://gopisaroja.github.io" class="link"><span class="icon">🌐</span> Portfolio</a>
+            <a href="https://github.com/Gopisaroja" class="link"><span class="icon">🐙</span> GitHub</a>
+            <a href="mailto:gopisaroja_bcs29@mepcoeng.ac.in" class="link"><span class="icon">📧</span> Email</a>
+            <a href="https://www.linkedin.com/in/gopisaroja-g-848453ac1" class="link"><span class="icon">🔗</span> LinkedIn</a>
+            <a href="tel:6379020617" class="link"><span class="icon">📱</span> 6379020617</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎯 Career Objective</div>
+        <div class="content">
+            Enthusiastic and self-motivated First Year Computer Science Engineering student at Mepco Schlenk Engineering College. Passionate about programming, problem-solving, and cloud technologies. Seeking opportunities to enhance technical skills and gain practical exposure through internships and technical projects.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎓 Education</div>
+        <div class="content">
+            <div class="education-item"><strong>Bachelor of Engineering (B.E) – Computer Science and Engineering</strong><br>Mepco Schlenk Engineering College | 2025 – Present</div>
+            <div class="education-item"><strong>12th Grade (Higher Secondary)</strong><br>Mangapuram Hindu Higher Secondary School, Srivilliputhur | 2025</div>
+            <div class="education-item"><strong>10th Grade (SSLC)</strong><br>Mangapuram Hindu Higher Secondary School, Srivilliputhur | 2023</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🛠 Technical Skills</div>
+        <div class="content">
+            <div><strong>Programming:</strong> Intermediate C, Python</div>
+            <div><strong>Concepts:</strong> Problem Solving, Logical Thinking, Basic Data Structures</div>
+            <div><strong>Tools & Cloud:</strong> AWS Cloud (Orientation Program), VS Code, GitHub</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">💻 Competitive Programming</div>
+        <div class="content">
+            Solved 200+ coding problems across platforms such as CodeChef, HackerRank, and LeetCode.
+            <div class="profiles" style="margin-top: 8px;">
+                <a href="https://www.codechef.com/users/Gopisaroja" class="profile-link">CodeChef</a>
+                <a href="https://www.hackerrank.com/gopisaroja_bcs29" class="profile-link">HackerRank</a>
+                <a href="https://leetcode.com/Gopisaroja" class="profile-link">LeetCode</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📂 Academic Projects</div>
+        <div class="content">
+            <div class="project-item"><strong>To-Do List Application (Python)</strong><br>Console-based task manager with features to add, view, update, and delete tasks.</div>
+            <div class="project-item"><strong>Electricity Bill Calculator (Python)</strong><br>Program to automatically calculate electricity charges based on tiered slab rates.</div>
+            <div class="project-item"><strong>Quadratic Equation Solver (Python)</strong><br>Mathematical tool to compute discriminant and classify roots.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📜 Certifications & Seminars</div>
+        <div class="content">
+            <strong>Certification:</strong> IEEE – English for Technical Professionals (Lesson 1.6 Test)<br>
+            <strong>Workshop:</strong> AWS Cloud Orientation Program – Feb 2026<br>
+            <strong>Seminar:</strong> AI: Pilot to Production – Challenges and Opportunities
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🗣 Languages</div>
+        <div class="content">
+            Tamil – Bilingual Fluency | English – Professional Fluency | Hindi – Professional Fluency
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">💡 Soft Skills & Interests</div>
+        <div class="content">
+            <strong>Soft Skills:</strong> Quick Learner, Analytical Thinking, Team Collaboration, Calm Under Pressure<br>
+            <strong>Areas of Interest:</strong> Software Development, Cloud Computing, Artificial Intelligence, Competitive Programming
+        </div>
+    </div>
+</body>
+  </html>
